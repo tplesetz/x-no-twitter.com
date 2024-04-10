@@ -3,14 +3,14 @@ import getOrigin from "@/functions/getOrigin";
 import {useEffect, useState} from "react";
 
 const title = "Are you serious, X Corp?";
-const description = `Ahoy there, welcome to turbotatwitter.com!
+const description = `Ahoy there, welcome to {this_site}!
     I assure you, there's nothing fishy going on here, so feel free to read on.
 
     Yeah, it's a "honeypot". Sorry about that.
     I'm not trying to apologize and get away with it, though.
 
     But when you clicked on this link, you probably thought
-    you were looking at something like "turbotax.com".
+    you were looking at something like "{domain}".
     Simple URL substitution can cause this kind of thing to happen,
     so I made this site.
 
