@@ -42,7 +42,7 @@ export default function Home() {
         <p><a
           href={process.env.REPO_URL}
           rel="noopener noreferrer">
-          btw this page is open source, prplecake/x-no-twitter.com
+          btw this page is open source, tplesetz/x-no-twitter.com
         </a></p>
         <p><a
           href={"https://github.com/tplesetz"}
