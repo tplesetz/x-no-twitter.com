@@ -4,14 +4,14 @@ import {useEffect, useState} from "react";
 import {TrackedLink} from "@/components/fathom";
 
 const title = "Are you serious, X Corp?";
-const description = `Ahoy there, welcome to {this_site}!
+const description = `Ahoy there, welcome to turbotatwitter.com!
     I assure you, there's nothing fishy going on here, so feel free to read on.
 
     Yeah, it's a "honeypot". Sorry about that.
     I'm not trying to apologize and get away with it, though.
 
     But when you clicked on this link, you probably thought
-    you were looking at something like "{domain}".
+    you were looking at something like "turbotax.com".
     Simple URL substitution can cause this kind of thing to happen,
     so I made this site.
 
