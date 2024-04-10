@@ -2,7 +2,7 @@ const commitHash = require("child_process")
   .execSync("git rev-parse --short HEAD")
   .toString().trim();
 const repoName = "x-no-twitter.com";
-const repoUrl = `https://github.com/prplecake/${repoName}`;
+const repoUrl = `https://github.com/tplesetz/${repoName}`;
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
